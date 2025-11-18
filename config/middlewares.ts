@@ -18,7 +18,7 @@ export default ({ env }) => [
   {
     name: 'strapi::cors',
     config: {
-      origin: env.array('CORS_ORIGINS', ['http://localhost:3000']),
+      origin: env.array('CORS_ORIGINS', ['http://localhost:3000', 'https://veloce-moto.vercel.app']),
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
       keepHeaderOnError: true,
