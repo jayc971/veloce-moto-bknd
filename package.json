@@ -17,6 +17,7 @@
   "dependencies": {
     "@strapi/plugin-cloud": "5.31.0",
     "@strapi/plugin-users-permissions": "5.31.0",
+    "@strapi/provider-upload-cloudinary": "^5.31.0",
     "@strapi/strapi": "5.31.0",
     "better-sqlite3": "12.4.1",
     "react": "^18.0.0",
@@ -37,5 +38,8 @@
   "strapi": {
     "uuid": "047636a5-8984-43df-8e4e-aa9e55432ae8",
     "installId": "0f066c028189c9291884574241048ce7ea6741d55705888764a4bb42932d5e1e"
+  },
+  "overrides": {
+    "file-type": "16.5.4"
   }
 }
